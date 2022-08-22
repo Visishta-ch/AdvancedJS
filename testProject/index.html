@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense tracker</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel = "icon" href="logo.png"/>
+
+</head>
+<body>
+    
+    <!-- <header> Personal Expense Tracker</header> -->
+    <div class="header__logo-box">
+        <img src="logoo.png" alt="Logo" class="header__logo" />
+      </div>
+    <div class="header__text-box">
+        <h1 class = "headertext" >Personal Expense Tracker</h1>
+    </div>
+    <!-- <section id="container"><h2> Personal Expense Tracker</h2></section> -->
+    <section class=" container" id ="container">
+        <form id="my-form">
+            <h1 id = "title">Add Expenses</h1>
+            <div class="msg"></div>
+            <div>
+              <label for="expenseAmount">Choose Expense Amount</label>
+              <input type="number" id="amount" required />
+            </div>
+            <div>
+              <label for="description">Choose description</label>
+              <input type="text" id="description" required />
+            </div>
+            <div>
+                <label for="category">Choose Category</label>
+                <select id="category" name = "expensesCategory" required>
+                    <option value="movies">Movies</option>
+                    <option value="travel">Travel</option>
+                    <option value="food">Food</option>
+                    <option value="houseRent">House Rent</option>
+                    <option value="transport">Transport</option>
+                    <option value="currentBill">Current Bill</option>
+                    <option value="shopping">Shopping</option>
+                </select>
+              </div>
+            <input class="btn btn-success" id="submit" type="submit" value="Add Expenses" />
+          </form>
+    
+          <ul id="items" class="list-items"></ul>
+        </section>
+        <script src="index.js"></script>
+    </section>
+</body>
+</html>

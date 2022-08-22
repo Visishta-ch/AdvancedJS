@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .header__logo-box {
+    position: absolute;
+    top: 3rem;
+    left: 4rem; 
+}
+  .header__logo {
+    height: 3.5rem;
+ }
+
+ .header__text-box {
+   
+    padding-top: 3rem;
+    /* transform: translate(-50%, -50%); */
+    text-align: center;
+ 
+    /*background-color: aqua;*/
+ }
+.headertext{
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 0.2rem;
+    text-shadow: 1px 2px 2px rgb(225, 232, 10);
+    font-size: 42px;
+    font-family: red Serif;
+    color: rgb(0, 153, 255);
+}
+
+ body {
+    /* background-image: url("bgg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+  }
+  .title {
+    color: rgb(236, 175, 19);
+    
+    
+  }
+  
+  ul {
+    list-style: none;
+   
+  }
+  
+  ul li {
+    padding: 5px;
+    margin: 5px 0;
+  }
+  li{
+    float: left;
+    width: 100%;
+
+  }
+  
+  header {
+    /* background: #f4f4f4; */
+    padding: 1rem;
+    text-align: center;
+  }
+  header h1 {
+    color: rgb(6, 6, 193);
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .container {
+    margin: auto;
+    width: 500px;
+  
+    
+  }
+  
+  #my-form {
+    padding: 2rem;
+  
+  }
+  
+  #my-form label {
+    display: block;
+    text-decoration-color:rgb(27, 24, 24);
+  }
+  
+  #my-form input[type='text'] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+   
+
+  }
+  #my-form input[type='number'] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+  }
+  #category{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border: 0;
+    background: rgb(53, 186, 100);
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5mm;
+    margin: 5px 0;
+  }
+  
+  .edit-btn {
+   
+    font-size: 16px;
+    padding:1.7px;
+    color: rgb(78, 135, 227);
+  }
+  .edit-btn:hover{
+    background: rgb(99, 150, 232);
+    color: aliceblue;
+    font-style: bold;
+  }
+  .delete-btn {
+  
+    font-size: 16px;
+    padding:1.7px;
+    color: orangered
+  }
+  .delete-btn:hover{
+    background: rgb(244, 169, 50);
+    color:aliceblue;
+    font-style: bold;
+  }
+  .bg-dark {
+    background: #333;
+    color: #fff;
+  }
+  .bg-light {
+    background: lightblue;
+    color: goldenrod;
+  }
+  .bg-light-1 {
+    background: silver;
+    color: rgb(6, 6, 193);
+  }
+  
+ 
+
+ 
+  
