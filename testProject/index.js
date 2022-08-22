@@ -24,6 +24,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     event.preventDefault();
     Object.keys(localStorage).forEach((key) => {
         const entry = JSON.parse(localStorage.getItem(key));
+        console.log(entry);
         displayEntries(entry);
     });
 });
@@ -64,7 +65,9 @@ function displayEntries(entries){
         document.getElementById('amount').value = newAmount;
         document.getElementById('description').value = newDescription;
         document.getElementById('category').value = newCateory;
-
+        localStorage.removeItem(newAmount         
+        );
+        userEnteries.removeChild(item);
     
     })
     /*Delete functinality */
